@@ -1,0 +1,14 @@
+{
+	"elements": [
+		"water",
+		"fire",
+		"earth",
+		"air",
+		"mud",
+		"ash"
+	],
+	"reactions": [
+		"fire + water",
+		"earth + water"
+	]
+}

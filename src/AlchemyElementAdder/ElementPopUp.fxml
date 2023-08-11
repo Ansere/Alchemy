@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AlchemyElementAdder.ElementPopUp">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="455.0" minWidth="10.0" prefWidth="100.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="514.0" minWidth="10.0" prefWidth="432.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <AnchorPane GridPane.rowIndex="1">
+         <children>
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" text="isFinal" textAlignment="RIGHT" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="7.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefWidth="100.0" GridPane.rowIndex="2">
+          <children>
+              <Label text="Reactions" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="20.0" />
+          </children>
+      </AnchorPane>
+      <AnchorPane GridPane.rowIndex="3">
+         <children>
+            <Label alignment="CENTER_RIGHT" text="id" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="7.0" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_RIGHT" layoutX="325.0" layoutY="2.0">
+               <children>
+                  <Button fx:id="cancelButton" alignment="CENTER_RIGHT" contentDisplay="CENTER" mnemonicParsing="false" text="Cancel" />
+                  <Button fx:id="saveButton" mnemonicParsing="false" text="Save" />
+               </children>
+            </HBox>
+            <Label fx:id="errorLabel" textFill="RED" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="7.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+         <children>
+            <Label fx:id="idLabel" layoutY="6.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="7.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="name" maxWidth="200.0" GridPane.columnIndex="1" />
+      <CheckBox fx:id="isFinal" mnemonicParsing="false" prefHeight="17.0" prefWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label text="Name" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="7.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+         <children>
+            <Label layoutX="182.0" layoutY="38.0" text="Parent 2" />
+            <TextField fx:id="parent2" layoutX="234.0" layoutY="34.0" prefHeight="25.0" prefWidth="100.0" />
+            <TextField fx:id="parent1" layoutX="65.0" layoutY="34.0" prefHeight="25.0" prefWidth="100.0" />
+            <Label alignment="CENTER_RIGHT" layoutX="14.0" layoutY="38.0" text="Parent 1" textAlignment="RIGHT" AnchorPane.rightAnchor="374.0" AnchorPane.topAnchor="38.0" />
+            <ChoiceBox fx:id="parentDropDown" layoutX="8.0" layoutY="2.0" prefWidth="150.0" />
+            <Button fx:id="addReactionButton" layoutX="190.0" layoutY="2.0" mnemonicParsing="false" text="Add" />
+            <Button fx:id="removeReactionButton" layoutX="240.0" layoutY="2.0" mnemonicParsing="false" prefWidth="66.0" text="Remove" />
+         </children>
+      </AnchorPane>
+      <Label />
+   </children>
+</GridPane>

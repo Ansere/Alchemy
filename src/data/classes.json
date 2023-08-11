@@ -1,0 +1,124 @@
+[
+	{
+		"name": "water",
+		"elements":[
+			"ocean",
+			"rain",
+			"sea",
+			"water"
+		],
+		"id": "0"
+	},
+	{
+		"name": "fire",
+		"elements":[
+			"explosion",
+			"fire",
+			"heat",
+			"lava",
+			"sun"
+		],
+		"id": "1"
+	},
+	{
+		"name": "earth",
+		"elements":[
+			"ash",
+			"charcoal",
+			"dust",
+			"earth",
+			"glass",
+			"metal",
+			"mud",
+			"sand",
+			"stone"
+		],
+		"id": "2"
+	},
+	{
+		"name": "air",
+		"elements":[
+			"air",
+			"carbon dioxide",
+			"cloud",
+			"hydrogen",
+			"lightning",
+			"oxygen",
+			"sky",
+			"steam"
+		],
+		"id": "3"
+	},
+	{
+		"name": "tools",
+		"elements":[
+			"clock",
+			"glasses",
+			"gunpowder",
+			"wire"
+		],
+		"id": "4"
+	},
+	{
+		"name": "life",
+		"elements":[
+			"bacteria",
+			"cyanobacteria",
+			"hair",
+			"life",
+			"photosynthesis"
+		],
+		"id": "5"
+	},
+	{
+		"name": "sciences",
+		"elements":[
+			"electricity",
+			"time"
+		],
+		"id": "6"
+	},
+	{
+		"name": "plants",
+		"elements":[
+			"algae",
+			"fern",
+			"grass",
+			"moss",
+			"seed",
+			"tree"
+		],
+		"id": "8"
+	},
+	{
+		"name": "animals",
+		"elements":[
+			"animal",
+			"mammal",
+			"monkey"
+		],
+		"id": "9"
+	},
+	{
+		"name": "nature",
+		"elements":[
+			"forest",
+			"rainforest"
+		],
+		"id": "10"
+	},
+	{
+		"name": "man",
+		"elements":[
+			"man"
+		],
+		"id": "11"
+	},
+	{
+		"name": "events",
+		"elements":[
+			"forest fire"
+		],
+		"id": "12"
+	}
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Alchemy.GridPane">
+    <columnConstraints>
+      <ColumnConstraints hgrow="NEVER" maxWidth="300.0" minWidth="100.0" prefWidth="300.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints prefHeight="50" vgrow="NEVER" />
+        <RowConstraints prefHeight="300" vgrow="NEVER" />
+        <RowConstraints prefHeight="50" vgrow="NEVER" />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="300.0" prefWidth="300.0" GridPane.rowIndex="1">
+         <children>
+              <Button alignment="CENTER" contentDisplay="CENTER" layoutX="132.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#mix" text="Mix" />
+         </children></AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="topLabel" alignment="CENTER" contentDisplay="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+         <children>
+            <Button fx:id="reloadButton" layoutX="124.0" layoutY="13.0" mnemonicParsing="false" onMouseClicked="#reload" text="Reload" />
+         </children></AnchorPane>
+   </children>
+</GridPane>

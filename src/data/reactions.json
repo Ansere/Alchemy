@@ -1,0 +1,394 @@
+[
+	{
+		"reactants": [
+			"earth",
+			"water"
+		],
+		"products": [
+			"mud"
+		]
+	},
+	{
+		"reactants": [
+			"earth",
+			"fire"
+		],
+		"products": [
+			"lava"
+		]
+	},
+	{
+		"reactants": [
+			"air",
+			"water"
+		],
+		"products": [
+			"steam"
+		]
+	},
+	{
+		"reactants": [
+			"air",
+			"earth"
+		],
+		"products": [
+			"dust"
+		]
+	},
+	{
+		"reactants": [
+			"air",
+			"fire"
+		],
+		"products": [
+			"heat"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"water"
+		],
+		"products": [
+			"ash"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"tree"
+		],
+		"products": [
+			"ash",
+			"carbon dioxide",
+			"charcoal"
+		]
+	},
+	{
+		"reactants": [
+			"lava",
+			"water"
+		],
+		"products": [
+			"stone"
+		]
+	},
+	{
+		"reactants": [
+			"air",
+			"stone"
+		],
+		"products": [
+			"sand"
+		]
+	},
+	{
+		"reactants": [
+			"stone",
+			"water"
+		],
+		"products": [
+			"sand"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"sand"
+		],
+		"products": [
+			"glass"
+		]
+	},
+	{
+		"reactants": [
+			"glass",
+			"glass"
+		],
+		"products": [
+			"glasses"
+		]
+	},
+	{
+		"reactants": [
+			"dust",
+			"fire"
+		],
+		"products": [
+			"gunpowder"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"gunpowder"
+		],
+		"products": [
+			"explosion"
+		]
+	},
+	{
+		"reactants": [
+			"water",
+			"water"
+		],
+		"products": [
+			"sea"
+		]
+	},
+	{
+		"reactants": [
+			"sea",
+			"sea"
+		],
+		"products": [
+			"ocean"
+		]
+	},
+	{
+		"reactants": [
+			"air",
+			"steam"
+		],
+		"products": [
+			"cloud"
+		]
+	},
+	{
+		"reactants": [
+			"cloud",
+			"cloud"
+		],
+		"products": [
+			"lightning"
+		]
+	},
+	{
+		"reactants": [
+			"lightning",
+			"ocean"
+		],
+		"products": [
+			"life"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"stone"
+		],
+		"products": [
+			"metal"
+		]
+	},
+	{
+		"reactants": [
+			"air",
+			"cloud"
+		],
+		"products": [
+			"sky"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"sky"
+		],
+		"products": [
+			"sun"
+		]
+	},
+	{
+		"reactants": [
+			"life",
+			"ocean"
+		],
+		"products": [
+			"bacteria"
+		]
+	},
+	{
+		"reactants": [
+			"lightning",
+			"metal"
+		],
+		"products": [
+			"electricity"
+		]
+	},
+	{
+		"reactants": [
+			"electricity",
+			"water"
+		],
+		"products": [
+			"hydrogen",
+			"oxygen"
+		]
+	},
+	{
+		"reactants": [
+			"bacteria",
+			"sun"
+		],
+		"products": [
+			"cyanobacteria",
+			"photosynthesis"
+		]
+	},
+	{
+		"reactants": [
+			"cyanobacteria",
+			"mud"
+		],
+		"products": [
+			"algae"
+		]
+	},
+	{
+		"reactants": [
+			"algae",
+			"earth"
+		],
+		"products": [
+			"moss"
+		]
+	},
+	{
+		"reactants": [
+			"moss",
+			"water"
+		],
+		"products": [
+			"fern"
+		]
+	},
+	{
+		"reactants": [
+			"life",
+			"sand"
+		],
+		"products": [
+			"seed"
+		]
+	},
+	{
+		"reactants": [
+			"fern",
+			"seed"
+		],
+		"products": [
+			"tree"
+		]
+	},
+	{
+		"reactants": [
+			"earth",
+			"life"
+		],
+		"products": [
+			"animal"
+		]
+	},
+	{
+		"reactants": [
+			"earth",
+			"moss"
+		],
+		"products": [
+			"grass"
+		]
+	},
+	{
+		"reactants": [
+			"grass",
+			"life"
+		],
+		"products": [
+			"hair"
+		]
+	},
+	{
+		"reactants": [
+			"animal",
+			"hair"
+		],
+		"products": [
+			"mammal"
+		]
+	},
+	{
+		"reactants": [
+			"tree",
+			"tree"
+		],
+		"products": [
+			"forest"
+		]
+	},
+	{
+		"reactants": [
+			"cloud",
+			"water"
+		],
+		"products": [
+			"rain"
+		]
+	},
+	{
+		"reactants": [
+			"forest",
+			"rain"
+		],
+		"products": [
+			"rainforest"
+		]
+	},
+	{
+		"reactants": [
+			"animal",
+			"rainforest"
+		],
+		"products": [
+			"monkey"
+		]
+	},
+	{
+		"reactants": [
+			"glass",
+			"sand"
+		],
+		"products": [
+			"clock",
+			"time"
+		]
+	},
+	{
+		"reactants": [
+			"fire",
+			"forest"
+		],
+		"products": [
+			"forest fire"
+		]
+	},
+	{
+		"reactants": [
+			"electricity",
+			"metal"
+		],
+		"products": [
+			"wire"
+		]
+	},
+	{
+		"reactants": [
+			"monkey",
+			"time"
+		],
+		"products": [
+			"man"
+		]
+	}
+]
